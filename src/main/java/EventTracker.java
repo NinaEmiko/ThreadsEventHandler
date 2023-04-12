@@ -30,4 +30,7 @@ public class EventTracker implements Tracker {
     EventTracker(Map<String, Integer> tracker) {
         this.tracker = tracker;
     }
+
+    @Override
+    public Map<String, Integer> tracker() { return null; }
 }
